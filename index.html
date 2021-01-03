@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viweport" content="width-divcie-width, initial-scale=1.0"/>
+        <title>Shoping Cart | Home Page</title>
+
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+
+         <!--Css links-->
+        <link rel="stylesheet" href="Css/all.min.css"> 
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+
+    <body>
+        <header>
+            <div class="container">
+                 <div class="header-content">
+                    <a href="index.html" class="brand">Shoping Cart</a>
+                    <nav>
+                         <ul id = "links">
+                            <li><a href="login.html">Sign In</a></li>
+                            <li><a href="register.html">Sing Up</a></li>
+                         </ul>
+                         <ul id="user-info">
+                            <li> <a href="" id="user"></a></li>
+                            <li class="shoppingCart"><i class="cart-icon fas fa-shopping-cart fa-lg"></i>
+                                <span class="badge"></span>
+                                <div class="products-list">
+                                    <div class="itemsList"></div>
+                                    <a href="CartProduct.html" class = "viewProduct">View all product</a>
+                                </div>
+                            </li>
+                            <li> <a href="" class ="logout">Log Out</a></li>
+                         </ul>
+                    </nav>
+                </div>
+             </div>
+        </header>
+
+        <section class="product-section">
+            <div class="container">
+                <div class="product-item"></div>
+            </div>
+        </section>  
+        <script src="js/user.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
